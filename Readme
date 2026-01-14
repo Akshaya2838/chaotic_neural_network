@@ -1,0 +1,70 @@
+# Chaotic Neural Network for Breast Cancer Classification
+# Project Overview
+This project demonstrates the **application of linear algebra, chaos theory, and deep learning** in medical data analysis.  
+A **Chaotic Neural Network** is developed to classify breast cancer tumors as **benign or malignant** using the Breast Cancer Wisconsin Diagnostic Dataset.
+
+The project combines:
+- Principal Component Analysis (PCA)
+- Chaotic Logistic Maps
+- Neural Networks (PyTorch)
+
+
+# Objectives
+- Apply **PCA** for dimensionality reduction and visualization
+- Understand the role of **eigenvalues and eigenvectors** in data analysis
+- Implement a **chaotic logistic map** for neural network weight initialization
+- Build and evaluate a **custom neural network** for classification
+
+#Dataset
+- **Breast Cancer Wisconsin Diagnostic Dataset**
+- Features: 30 numerical features computed from digitized images
+- Labels:
+  - `0` → Malignant
+  - `1` → Benign
+
+# Mathematical Concepts Used
+- Matrix operations
+- Eigenvalues & Eigenvectors
+- Principal Component Analysis (PCA)
+- Logistic Map (Chaos Theory)
+- Sigmoid Activation Function
+
+
+#Model Architecture
+- Input Layer → Chaotic Layer → Hidden Layer → Output Layer
+- Activation Function: Sigmoid
+- Loss Function: Binary Cross Entropy
+- Optimizer: Adam
+
+
+#Results
+- Model evaluated using:
+  - Accuracy
+  - Confusion Matrix
+- Achieves high classification performance on test data
+
+
+# Technologies Used
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- PyTorch
+
+
+# How to Run
+1. Clone the repository
+2. Open the notebook in Jupyter / Google Colab
+3. Run all cells sequentially
+
+
+#Applications
+- Medical diagnosis
+- Computational biology
+- Applied linear algebra
+- Intelligent healthcare systems
+
+#Author
+**Akshaya Giri**  
+College-level project on *Applications of Linear Algebra and Chaos Theory in Machine Learning*
